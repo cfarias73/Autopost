@@ -1,0 +1,38 @@
+{
+  "name": "autopost",
+  "version": "1.0.0",
+  "description": "AI-powered social media auto-posting tool",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@vitejs/plugin-react": "^4.2.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.21.1",
+    "@mui/material": "^5.15.1",
+    "@mui/icons-material": "^5.15.1",
+    "@emotion/react": "^11.11.3",
+    "@emotion/styled": "^11.11.0",
+    "axios": "^1.6.2",
+    "date-fns": "^3.0.6",
+    "openai": "^4.24.1",
+    "express": "^4.18.2",
+    "mongoose": "^8.0.3",
+    "dotenv": "^16.3.1",
+    "facebook-nodejs-business-sdk": "^18.0.4",
+    "instagram-private-api": "^1.45.3"
+  },
+  "devDependencies": {
+    "vite": "^5.0.10",
+    "@types/react": "^18.2.45",
+    "@types/react-dom": "^18.2.18",
+    "eslint": "^8.56.0",
+    "eslint-plugin-react": "^7.33.2",
+    "eslint-plugin-react-hooks": "^4.6.0"
+  }
+}
