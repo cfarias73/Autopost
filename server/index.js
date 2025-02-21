@@ -1,5 +1,7 @@
 import express from 'express';
 import dotenv from 'dotenv';
+import cors from 'cors';  // Add this import
+
 import mongoose from 'mongoose';
 import { OpenAI } from 'openai';
 import { IgApiClient } from 'instagram-private-api';
@@ -9,6 +11,7 @@ import Settings from './models/Settings.js';
 dotenv.config();
 
 const app = express();
+app.use(cors());  // Add this line
 app.use(express.json());
 
 // Temporary in-memory storage for settings

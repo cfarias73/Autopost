@@ -36,3 +36,8 @@
     "eslint-plugin-react-hooks": "^4.6.0"
   }
 }
+{
+  "scripts": {
+    "start": "node server/index.js"
+  }
+}
